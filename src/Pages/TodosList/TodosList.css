@@ -1,3 +1,21 @@
 .todos_list{
     display: flex;
+    margin-top: 40px;
+    margin-left:  70px;
+}
+input{
+    margin: 0;
+    margin-left: 10px;
+    margin-top: -8px;
+}.add_ul{
+    display: flex;
+    flex-direction: column;
+}
+.add_input{
+
+        width: 20px;
+
+}
+.add_h1{
+    margin-left:  70px;
 }

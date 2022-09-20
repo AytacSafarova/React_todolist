@@ -1,5 +1,6 @@
 import { useContext, useState } from "react";
 import { TodosContext } from "../TodosContext/TodosContext";
+import "./AddTodo.css"
 
 export default function AddTodo() {
   const {list, setList} = useContext(TodosContext);
@@ -12,9 +13,9 @@ export default function AddTodo() {
 
   return (
     <>
-      <div style={{ display: "flex" }}>
+      <div className="add_div">
         <input onChange={(e)=>setNewtodos(e.target.value)}></input>
-        <button onClick={() => addTodos()}>Add</button>
+        <button className="addbtn" onClick={() => addTodos()}>Add</button>
       </div>
     </>
   );
