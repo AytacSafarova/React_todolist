@@ -12,8 +12,8 @@ export default function TodosList() {
 
   return (
     <>
-      <h1>List</h1>
-      <ul>
+      <h1 className="add_h1">List</h1>
+      <ul className="add_ul">
         {list &&
           list.map((item, key) => {
             return (
@@ -21,6 +21,7 @@ export default function TodosList() {
                 <li>{item}</li>
                 <input
                   type="checkbox"
+                  className="add_input"
                   onClick={() => checkCompleted({ item })}
                 ></input>
               </div>

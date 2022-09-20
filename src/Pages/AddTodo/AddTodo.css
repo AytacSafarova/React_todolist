@@ -1,0 +1,25 @@
+
+.add_div{
+    width: 40%;
+    margin: auto;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    border-radius: 15px;
+    height: 40px;
+    width: 60%;
+    margin-bottom: 40px;
+    align-self: center;
+
+}
+.addbtn{
+    background-color: saddlebrown;
+    padding: 7px;
+    width: 200px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+    align-self: center;
+}
